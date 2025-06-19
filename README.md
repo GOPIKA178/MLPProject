@@ -9,33 +9,45 @@ The goal of the Kaggle competition was to predict whether a machine is infected 
 -test.csv: Unlabeled data to make predictions
 
 -sample_submission.csv: Sample format for Kaggle submission
+
 Each row represents one machine, identified by MachineID. The target column is 1 if malware was detected, and 0 otherwise.
 
 ## **Process Summary**
 ### Exploratory Data Analysis (EDA)
 -Analyzed feature types and distributions
+
 -Identified missing values and potential outliers
+
 -Explored feature-target relationships
 
 ### Preprocessing
 -Handled missing values appropriately
+
 -Encoded categorical variables
+
 -Scaled numeric features where required
+
 -Performed feature selection to reduce dimensionality
 
 ### Models Used (with Hyperparameter Tuning)
 -Logistic Regression
+
 -Decision Tree Classifier
+
 -Random Forest Classifier
+
 -XGBoost Classifier
 
 ## Evaluation
 -Evaluation metric: accuracy_score()
+
 -Cross-validation used for robust model comparison
+
 -Final predictions generated on the test set
 
 ## Results
 -Best Score: 0.63300
+
 -Leaderboard Rank: 266 (Kaggle)
 
 ## File Included
