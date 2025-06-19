@@ -5,7 +5,9 @@ The goal of the Kaggle competition was to predict whether a machine is infected 
 
 ## **Dataset Description**
 -train.csv: Labeled data with machine features and malware infection status (target)
+
 -test.csv: Unlabeled data to make predictions
+
 -sample_submission.csv: Sample format for Kaggle submission
 Each row represents one machine, identified by MachineID. The target column is 1 if malware was detected, and 0 otherwise.
 
